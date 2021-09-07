@@ -1,0 +1,70 @@
+﻿<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Curso de CSS3</title>
+	<style>
+		section{
+			border:3px solid #f00;
+			
+			/* Quebra de linha */
+			flex-wrap: wrap;
+			
+			display:flex;
+			display:-webkit-flex;
+			display:-moz-flex;
+			
+			/* Alinhamento horizontal: flex-start(padrão), center, flex-end */
+			justify-content:flex-start;
+			
+			/* Alinhamento vertical: flex-start(padrão), center, flex-end */
+			align-items:flex-start;
+			
+			/* Direção dos elementos: row(padrão), column | row-reverse column-reverse */
+			flex-direction:row;
+			
+		}
+
+		div{
+			border:1px solid #000;
+			height: 50px;
+		}
+		#d1{
+			order: 1;
+			flex: 1 0 auto;  // é equivalente a flex: 1;
+		}
+		#d2{
+			order: 2;
+			width: 100px;
+		}
+		#d3{
+			order: 3;
+			width: 100px;
+		}
+		#d4{
+			order: 4;
+			width: 100px;
+		}
+		#d5{
+			order: 5;
+			width: 100px;
+		}
+		#d6{
+			order: 6;
+			width: 100px;
+		}
+	</style>
+</head>
+<body>
+
+	<section  id="s1">
+		<div id="d1">CFB 1</div>
+		<div id="d2">CFB 2</div>
+		<div id="d3">CFB 3</div>
+		<div id="d4">CFB 4</div>
+		<div id="d5">CFB 5</div>
+		<div id="d6">CFB 6</div>
+	</section>
+		
+</body>
+</html>

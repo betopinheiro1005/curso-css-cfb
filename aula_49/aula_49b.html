@@ -1,0 +1,51 @@
+﻿<!doctype html>
+<html lang=“pt-br”>
+	<head>
+		<title>Curso de CSS</title>
+		<meta charset=“UTF-8”>
+		<style>
+			.container{
+				overflow:auto;
+			}
+			#txtPrincipal{
+				margin-left:216px;
+			}
+			#cxMenu{
+				width:200px; float:left;
+			}
+			#menu{
+				margin:0;
+				padding:0;
+			}
+			.menuItem{
+				background:#D55;
+				color:#FFF;
+				border:#ddd solid 1px;
+				border-radius:4px;
+				list-style-type:none;
+				margin:4px;
+				padding:2px;
+			}
+			@media screen and (max-width:500px){
+				#cxMenu{float:none; width:auto;}
+				#txtPrincipal{margin-left:5px;}
+			}			
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div id="cxMenu">
+				<ul id="menu">
+					<li class="menuItem">Menu 1</li>
+					<li class="menuItem">Menu 2</li>
+					<li class="menuItem">Menu 3</li>
+				</ul>
+			</div>
+			<div id="txtPrincipal">
+				<h1>Canal Fessor Bruno</h1>
+				<p>Neste exemplo quando a tela for menor que 500 pixels, este texto que está ao lado 
+do menu irá passar para baixo e o menu será redimensionado para ocupar o local onde o texto estava.</p>
+			</div>
+		</div>
+	</body>
+</html>

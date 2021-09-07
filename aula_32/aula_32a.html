@@ -1,0 +1,89 @@
+﻿<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Curso de CSS3</title>
+	<style>
+		header,section,nav,footer{
+			display:flex;
+			display:-webkit-flex;
+			display:-moz-flex;
+		}
+
+		header{
+			height:150px;
+		}
+
+		nav{
+			justify-content:flex-end;
+			background:tomato;
+			flex-wrap:wrap;
+		}
+
+		nav a{
+			width:150px;
+			height:50px;
+			min-width:150px;
+			max-width:150px;
+			display:flex;
+			align-items:center;
+			justify-content:center;	
+		}
+
+		section{
+			flex-wrap:wrap;
+			justify-content:center;
+		}
+
+		section div{
+			border:1px solid #000;
+			flex:1;
+			margin:5px;
+			min-width:200px;
+			max-width:200px;
+			min-height:100px;
+			max-height:100px;
+		}
+
+		footer{
+			background:#888;
+			color:#fff;
+			align-items:center;
+			justify-content:center;
+		}	
+	</style>	
+</head>
+<body>
+
+	<header>
+		<h1>Cabeçalho do Site</h1>
+	</header>
+	
+	<nav>
+		<a>menu 1</a>
+		<a>menu 2</a>
+		<a>menu 3</a>
+		<a>menu 4</a>
+		<a>menu 5</a>
+		<a>menu 6</a>
+	</nav>
+	
+	<section>
+		<div>CFB1</div>
+		<div>CFB2</div>
+		<div>CFB3</div>
+		<div>CFB4</div>
+		<div>CFB5</div>
+		<div>CFB6</div>
+		<div>CFB7</div>
+		<div>CFB8</div>
+		<div>CFB9</div>
+		<div>CFB10</div>
+	</section>
+	
+	<footer>
+		<p>Canal Fessor Bruno</p>
+	</footer>
+		
+</body>
+</html>

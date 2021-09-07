@@ -1,0 +1,47 @@
+﻿<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Curso de CSS3</title>
+		<style>
+			@keyframes anima1{
+				from{left:500px;top:500px}
+				to{left:0px;top:0px}
+			}
+
+			@keyframes anima2{
+				from{background-color:#fff;left:0px;top:0px;}
+				to{background-color:#f00;left:0px;top:0px;}
+			}
+
+			@keyframes anima3{
+				from{background-color:#f00;left:0px;top:0px;}
+				to{background-color:#fff;left:0px;top:0px;}
+			}
+
+			@keyframes anima4{
+				from{left:0px;top:0px}
+				to{left:500px;top:500px}
+			}
+
+			p{
+				position:relative;
+				left:500px;
+				top:500px;
+				width:260px;
+				height:260px;
+				border:1px solid #000;
+				border-radius:10px;
+				padding:10px;
+				text-align:justify;
+				animation-name:anima1,anima2,anima3,anima4;
+				animation-duration:2s;
+				animation-timing-function:linear;
+				animation-delay:0s,2s,4s,6s;
+			}
+		</style>
+	</head>
+	<body>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mattis, metus vel ultrices vehicula, mauris turpis finibus leo, eget facilisis leo diam ac lacus. Integer tincidunt commodo vestibulum. Suspendisse vitae sapien eu urna pretium sagittis. Nulla facilisi. In sit amet mi a dui consectetur blandit. Sed massa arcu, efficitur in sodales varius, aliquet vel justo. Pellentesque lacinia felis eu aliquet fermentum. Proin tristique, nulla pharetra laoreet pretium, diam libero suscipit arcu, sed facilisis massa dolor in orci.</p>
+	</body>
+</html>
