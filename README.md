@@ -1,5 +1,5 @@
 # Curso de CSS  
-## CFB - Canal Fessor Bruno (Bruno Pinho Campos)  
+## CFB Cursos (Bruno Pinho Campos)  
 
 ### [Vídeos do curso](https://www.youtube.com/watch?v=GPK8A-A156o&list=PLx4x_zx8csUi47Bnugpk78nqJN6rYvEnV)  
 
